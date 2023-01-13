@@ -6,7 +6,7 @@ void suma (double a,double b);
 int main()
 {
     double n1,n2;
-    printf("Hola mundo\n\n");
+
     printf("INGRESE EL PRIMER NUMERO: ");
     scanf("%lf",&n1);
     printf("INGRESE EL SEGUNDO NUMERO: ");
@@ -20,11 +20,11 @@ int main()
 }
 void suma (double a,double b){
     double s=a+b;
-    printf("La suma es: %lf\n\n",s);
+    printf("La suma es:\n\n %lf",s);
 }
 void resta (double a,double b){
     double s=a-b;
-    printf("La resta es: %lf ",s);
+    printf("La resta es:\n\n %lf ",s);
 }
 void multiplicacion (double a,double b){
     double s=a*b;
